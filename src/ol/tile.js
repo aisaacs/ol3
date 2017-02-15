@@ -54,6 +54,7 @@ ol.inherits(ol.Tile, ol.events.EventTarget);
 
 /**
  * @protected
+ * @api
  */
 ol.Tile.prototype.changed = function() {
   this.dispatchEvent(ol.events.EventType.CHANGE);
