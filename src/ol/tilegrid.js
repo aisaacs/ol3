@@ -143,6 +143,7 @@ ol.tilegrid.createForProjection = function(projection, opt_maxZoom, opt_tileSize
  * extent, it is used.  If not, a global extent is assumed.
  * @param {ol.ProjectionLike} projection Projection.
  * @return {ol.Extent} Extent.
+ * @api
  */
 ol.tilegrid.extentFromProjection = function(projection) {
   projection = ol.proj.get(projection);

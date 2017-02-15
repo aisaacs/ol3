@@ -15,6 +15,7 @@ goog.require('ol.events.EventType');
  * @extends {ol.events.EventTarget}
  * @param {ol.TileCoord} tileCoord Tile coordinate.
  * @param {ol.TileState} state State.
+ * @api
  */
 ol.Tile = function(tileCoord, state) {
 
